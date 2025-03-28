@@ -1,0 +1,157 @@
+.navbar-brand {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    color: #294b36;
+}
+
+.btn{
+    padding: 12px 50px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 0%;
+    transition: all ease-in.5s;
+
+} 
+
+.btn-brand{
+    background-color: rgb(88, 87, 87);
+    color: white;
+}
+
+.btn-brand-hover{
+    border: 2px solid #304438;
+
+}
+
+.navbar .nav-link{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #304438;
+    text-transform: uppercase;
+}
+
+#banner{
+    background: url('img1.jpg');
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#banner h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+
+}
+
+#banner p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+
+section{
+    padding: 100px;
+}
+
+
+.card-img-top{
+    width: 50%;
+
+}
+
+.card{
+    border-radius: 0;
+    margin-top: 20px;
+    border: 3px solid #304438;
+    padding: 20px;
+}
+
+.card .card-title{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+#home h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+#about .ngee {
+    height: 80vh;
+    background: url('img0.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#about .eyyy{
+    padding: 100px
+    
+}
+
+
+
+#about h2, #about h4 {
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#about{
+    background-color:#fafafa;
+}
+.testimonials {
+    border: 4px solid #304438;
+    margin-top: 20px;
+}
+.testimonials img {
+    width: 75px;
+    border-radius: 50%;
+
+}
+#faq {
+    background: #304438
+}
+
+#faq h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.faq-section {
+    max-width: 800px;
+    margin: auto;
+}
+
+.accordion-item {
+    margin-bottom: 20px;
+    border-radius: 0 !important;
+}
+
+.accordion-button {
+    background-color: #f8f9fa;
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size: 10px;
+    font-weight: 500;
+    color: #343a40;
+    cursor: pointer;
+    transition: background-color 0.3s, color o.3s;
+}
+
+.accordion-body {
+    border-left: 3px solid #BE8F5D;
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: #f8f9fa;
+
+}
+
+.accodion-button:hover {
+    background-color: #BE8F5D;
+    color: #FFF;
+}
